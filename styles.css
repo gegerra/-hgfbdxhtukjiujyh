@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #0f0c29, #302bb3, #24243e); /* Gradient background */
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8); /* Background transparent */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); /* Neon effect */
+    border: 1px solid #00f7ff; /* Neon border */
+}
+
+#clock {
+    font-size: 5em; /* Large font size for dramatic effect */
+    font-weight: bold;
+    color: #ffffff; /* Neon cyan color */
+    font-family: 'Press Start 2P', cursive; /* Retro font */
+}
+
+/* Add the font 'Press Start 2P' from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
